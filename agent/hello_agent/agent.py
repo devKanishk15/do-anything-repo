@@ -5,6 +5,9 @@ from google.adk.tools.agent_tool import AgentTool
 from dotenv import load_dotenv
 import os
 
+# Initialize Langfuse observability
+from . import langfuse_config
+
 load_dotenv()
 
 root_agent = Agent(
