@@ -251,7 +251,7 @@ docker-compose up -d
 docker ps | grep mcp-server
 
 # 3. Run the agent
-adk run hello_agent
+adk run root_agent
 ```
 
 ### Query Examples

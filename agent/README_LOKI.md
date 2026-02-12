@@ -50,7 +50,7 @@ docker run -d \
 
 ### Environment Variables
 
-The Loki agent is configured via the `.env` file in `hello_agent/`:
+The Loki agent is configured via the `.env` file in `root_agent/`:
 
 - `LOKI_MCP_URL`: The SSE endpoint for the Loki MCP server (defaults to `http://localhost:8081/sse`)
 - `LOKI_URL`: The URL of your Grafana Loki instance (set via Docker environment variable)

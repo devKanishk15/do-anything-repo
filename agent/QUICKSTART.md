@@ -30,7 +30,7 @@ CONTAINER ID   IMAGE             COMMAND   CREATED   STATUS   PORTS             
 
 ```bash
 cd /Users/kanishqk77/Desktop/do-anything-repo/agent
-adk run hello_agent
+adk run root_agent
 ```
 
 The agent will start with:
