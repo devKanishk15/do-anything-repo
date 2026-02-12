@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  loki-mcp-server:
+    image: loki-mcp-server
+    container_name: loki-mcp-server
+    environment:
+      - LOKI_URL=http://192.168.1.100:3100
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
+    networks:
+      - agent-network
+
+networks:
+  agent-network:
+    driver: bridge
